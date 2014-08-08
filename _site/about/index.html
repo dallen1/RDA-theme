@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Getting Started</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RD-Alliance | Metadata Directory">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/hc.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif] d-->
+    </head>
+    <body>
+<div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Metadata Directory </div>
+      <div id = "wrapper">
+
+
+<div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p class="navbar-brand">Metadata</p>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          <li><a href="/standards/">View the standards</a></li>
+          <li><a href="/extensions/">View the extensions</a></li>
+          <li><a href="/tools/">View the tools</a></li>
+          <li><a href="/use_cases/">View the use cases</a></li>
+          <li><a href="/subjects/">Browse by subject areas</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+       <!-- Sidebar -->
+       <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand"><a href="/"><h1 class="brand">Metadata</h1></a><h3>RD-Alliance | Metadata Directory</h3></li>
+
+          <hr />
+        
+
+          <hr />
+	
+          <li><a href="/standards/">View the standards</a></li>
+          <li><a href="/extensions/">View the extensions</a></li>
+          <li><a href="/tools/">View the tools</a></li>
+	  <li><a href="/use_cases/">View the use cases</a></li>
+ 	  <li><a href="/subjects/">Browse by subject areas</a></li>
+   	   <hr />
+
+          <li><a href="/standards/add.html">Adding standards</a></li>
+          <li><a href="/extensions/add.html">Adding extensions</a></li>
+          <li><a href="/tools/add.html">Adding tools</a></li>
+          <li><a href="/use_cases/add.html">Adding use cases</a></li>
+
+	   <hr />
+          <div id="social-wrapper">
+           <li> <a href="http://www.github.com/rd-alliance/metadata-directory"><i class="fa fa-github-square"></i> github</a> </li>
+           <li> <a href="https://twitter.com/resdatall"><i class="fa fa-twitter-square"></i> @twitter</a></li>
+           <li> <a href="http://www.linkedin.com/profile/view?id=272003890&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
+           <li> <a href="https://www.facebook.com/pages/Research-Data-Alliance/459608890798924"><i class="fa fa-facebook-square"></i> facebook</a></li>
+         </div>
+       </ul>
+     </div>
+
+
+
+     <div class="container">
+
+
+<h2>Structure of the Directory</h2>
+
+<p>Standards are contained within the
+<a href="https://github.com/rd-alliance/metadata-directory/tree/gh-pages/standards"><code>standards</code></a>
+file system directory with each standard encoded into a markdown file with a
+<a href="http://en.wikipedia.org/wiki/YAML">YAML</a> preface. The YAML preface is
+structured to encode the various elements describing a metadata standard or its
+associated implementations. </p>
+
+<p>Implementations come in three different categories
+<a href="https://github.com/rd-alliance/metadata-directory/tree/gh-pages/extensions"><code>extensions</code></a>,
+<a href="https://github.com/rd-alliance/metadata-directory/tree/gh-pages/tools"><code>tools</code></a>,
+and <a href="https://github.com/rd-alliance/metadata-directory/tree/gh-pages/use_cases"><code>use_cases</code></a>. Each grouping of
+implementations are contained in their own file system directories.</p>
+
+<p>Relationships between implementations and standards are created based on
+recording related standards within each of the implementation metadata records.</p>
+
+<h2>Getting Started</h2>
+
+<p><a href="/standards/add.html"><strong>Adding a Standard</strong></a></p>
+
+<p>Adding a new standard is as simple as forking the repository creating a new
+standards file marked up with a simple YAML schema. Commiting your new
+standard, and then submitting a
+<a href="https://help.github.com/articles/using-pull-requests">pull request</a> to the
+origin repository.</p>
+
+<p><a href="/extensions/add.html"><strong>Adding an Extension</strong></a></p>
+
+<p>An extension needs to reference an existing standard. Extensions are typically
+enhancements to a standard that provide additional functionality or meet some
+other requirements.</p>
+
+<p><a href="/tools/add.html"><strong>Adding a Tool</strong></a></p>
+
+<p>Tools are software tools or systems that support the use of the standard. Tools
+implement the standard.</p>
+
+<p><a href="/use_cases/add.html"><strong>Adding a Use Case</strong></a></p>
+
+<p>Use cases are systems, organizations or projects which use the standard.</p>
+
+<h2>Editing</h2>
+
+<p>Editing can take place within the GitHub editing tools. Or alternatively a fork
+of the repository can be cloned and editing can be done locally and pull
+requests can be generated using the existing GitHub and git workflows.</p>
+
+<p>Experimenting with different workflows for editing is encouraged!</p>
+
+<h3>Additional Help</h3>
+
+<p><a href="https://help.github.com/articles/creating-and-editing-files-in-your-repository">Creating and editing files in your repository</a></p>
+
+<p><a href="https://help.github.com/categories/63/articles">Collaboration on GitHub</a></p>
+
+<h2>Jekyll</h2>
+
+<p>The website is generated with <a href="http://jekyllrb.com">Jekyll</a>. The website uses
+Jekyll to process HTML, YAML, and Markdown files to generate a static website.</p>
+
+<p>If you choose to clone the repository running a local version of Jekyll is
+helpful for troubleshooting:
+<a href="https://help.github.com/articles/using-jekyll-with-pages">https://help.github.com/articles/using-jekyll-with-pages</a></p>
+
+      <hr />
+      <footer>
+        Metadata Directory is maintained by <a href="https://github.com/gugek">Sean Chen</a> and <a href="https://github.com/katealderete">Kate Anne Alderete</a>.
+        <br> 
+        This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. | Theme utilized is <a href="https://github.com/arnp/herring-cove">Herring Cove</a>.
+      </footer>
+
