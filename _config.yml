@@ -2,7 +2,6 @@ name: Metadata
 author: RDA
 markdown: redcarpet
 highlighter: true
-#baseurl: /herring-cove
 baseurl: http://rd-alliance.github.io/metadata-directory
 description: RD-Alliance | Metadata Directory
 github: http://www.github.com/rd-alliance/metadata-directory
@@ -10,9 +9,6 @@ twitter: https://twitter.com/resdatall
 facebook: https://www.facebook.com/pages/Research-Data-Alliance/459608890798924
 linkedin: http://www.linkedin.com/profile/view?id=272003890&trk=nav_responsive_tab_profile
 email: rda-mdir-wg@rda-groups.org
-#location: 42°2'16"N   70°12'47"W
-#disqus: diqus-username
 repourl: https://github.com/rd-alliance/metadata-directory
 repobranch: gh-pages
-##Make sure to edit the above fields, especially for disqus.
-title: Metadata Directory
+
