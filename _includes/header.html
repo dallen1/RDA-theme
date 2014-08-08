@@ -31,11 +31,20 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+          {% if page.type %}
+            <li>
+              <a href="{{ site.repourl }}/edit/{{ site.repobranch }}/{{ page.path }}">Edit this page</a>
+            </li>
+          {% endif %}
           <li><a href="{{ site.baseurl }}/standards/">View the standards</a></li>
           <li><a href="{{ site.baseurl }}/extensions/">View the extensions</a></li>
           <li><a href="{{ site.baseurl }}/tools/">View the tools</a></li>
-          <li><a href="{{ site.baseurl }}/use_cases/">View the use cases</a></li>
-          <li><a href="{{ site.baseurl }}/subjects/">Browse by subject areas</a></li>
+		  <li><a href="{{ site.baseurl }}/use_cases/">View the use cases</a></li>
+	 	  <li><a href="{{ site.baseurl }}/subjects/">Browse by subject areas</a></li>
+          <li><a href="{{ site.baseurl }}/standards/add.html">Adding standards</a></li>
+          <li><a href="{{ site.baseurl }}/extensions/add.html">Adding extensions</a></li>
+          <li><a href="{{ site.baseurl }}/tools/add.html">Adding tools</a></li>
+          <li><a href="{{ site.baseurl }}/use_cases/add.html">Adding use cases</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
