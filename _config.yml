@@ -3,7 +3,7 @@ author: RDA
 markdown: redcarpet
 highlighter: true
 #baseurl: /herring-cove
-#baseurl: http://rd-alliance.github.io/metadata-directory
+baseurl: http://triniq.github.io/RDA-theme/
 description: RD-Alliance | Metadata Directory
 github: http://www.github.com/rd-alliance/metadata-directory
 twitter: https://twitter.com/resdatall
