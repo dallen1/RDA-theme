@@ -2,7 +2,7 @@ name: Metadata
 author: RDA
 markdown: redcarpet
 highlighter: true
-baseurl: http://triniq.github.io/RDA-theme/
+baseurl: http://rd-alliance.github.io/metadata-directory
 description: RD-Alliance | Metadata Directory
 github: http://www.github.com/rd-alliance/metadata-directory
 twitter: https://twitter.com/resdatall
@@ -11,5 +11,4 @@ linkedin: http://www.linkedin.com/profile/view?id=272003890&trk=nav_responsive_t
 email: rda-mdir-wg@rda-groups.org
 repourl: https://github.com/rd-alliance/metadata-directory
 repobranch: gh-pages
-
 
