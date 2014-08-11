@@ -1,6 +1,6 @@
 <h2>Introduction</h2>
 
-<p>This is a guide for how the Herring Cove theme was applied. It assumes a basic understanding of css, the Jekyll manual for applying themes, and that the Herring Cove readme has been read.</p>
+<p>This is a guide for how the Herring Cove theme was applied. It assumes a basic understanding of html/css, the Jekyll manual for applying themes, and that the Herring Cove readme has been read.</p>
 
 <h2>Theme application</h2>
 
