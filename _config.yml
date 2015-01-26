@@ -2,7 +2,7 @@ name: Metadata
 author: RDA
 markdown: redcarpet
 highlighter: true
-baseurl: https://triniq.github.io/RDA-theme/
+baseurl: https://triniq.github.io/RDA-theme
 description: RDA | Metadata Directory
 github: http://www.github.com/rd-alliance/metadata-directory
 twitter: https://twitter.com/resdatall
